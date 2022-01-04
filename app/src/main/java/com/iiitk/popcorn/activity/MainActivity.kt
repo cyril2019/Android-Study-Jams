@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             val currpage=page.getInt("no",1)
             if(currpage>1) {
                 getmovies(currpage - 1)
-                page.edit().putInt("no", currpage + 1).apply()
+                page.edit().putInt("no", currpage - 1).apply()
             }
         }
 
