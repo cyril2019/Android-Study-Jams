@@ -5,6 +5,12 @@ During the pandemic people at home may find it difficult to find movies to watch
 
 **Solution**
 An app that lists the most popular movies that have been released recently. The users can also see the movie’s trailers and reviews in the app.
+<div style="flex;width=100%">
+<img src="https://user-images.githubusercontent.com/57187039/148744184-5c5ec254-5af0-4d2f-9ebc-af1d686ff154.png" width=23%>
+<img src="https://user-images.githubusercontent.com/57187039/148744207-873dc8ad-17f1-4d9b-9135-1f3be7efad1a.png" width=23%>
+<img src="https://user-images.githubusercontent.com/57187039/148744218-f28de357-447a-408d-be49-b7f3bd41e99d.png" width=23%>
+<img src="https://user-images.githubusercontent.com/57187039/148744229-04ee678c-097e-4315-84cd-67e1c8ef1217.png" width=23%>
+</div>
 
 **Functionality and Concept used:**
 Users can see all the latest movies on the home screen. Here we are using a recycler view to display the movies. The movie details are fetched using retrofit api call.
